@@ -13,6 +13,7 @@
 }
 
 body {
+  
   font-family: "Lilita One", sans-serif;
   /* font-family: "Open Sans", sans-serif; */
   color: #444444;
@@ -49,6 +50,9 @@ h6 {
 /*--------------------------------------------------------------
 # Catalogo
 --------------------------------------------------------------*/
+
+
+
 
 
 
@@ -1197,6 +1201,10 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: 1s;
+}
+
+.col-lg-2{
+ 
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
