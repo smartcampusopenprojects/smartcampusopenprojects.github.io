@@ -1326,6 +1326,17 @@ section {
   right: 15px;
 }
 
+.portfolio-info li:hover>a {
+  color: #7ed957;
+}
+
+/* BARRA HR */
+hr{
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1357,7 +1368,7 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 40px;
+  padding: 30px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
@@ -1367,6 +1378,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+  text-align: center;
 }
 
 .portfolio-details .portfolio-info ul {
@@ -1377,6 +1389,7 @@ section {
 
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
+
 }
 
 .portfolio-details .portfolio-description {
