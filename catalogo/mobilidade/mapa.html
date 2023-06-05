@@ -10,6 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
+  <link href="../../assets/img/logo.png" rel="icon">
   <!-- <link href="../../assets/img/favicon.png" rel="icon">
   <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
@@ -105,13 +106,13 @@
                   <a class="nav-link active" href="#">Principais Informações</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">No que consiste</a>
+                  <a class="nav-link" href="#noQueConsiste">No que consiste</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Alinhamento com a ISO 37122</a>
+                  <a class="nav-link" href="#iso37122">Alinhamento com a ISO 37122</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Como contribuir</a>
+                  <a class="nav-link" href="#comoContr">Projeto</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link disabled" href="#">Disabled</a>
@@ -168,27 +169,76 @@
             <div class="portfolio-info">
               <h3>Principais Informações</h3>
               <ul>
-                <li><strong>Tema da ISO</strong>: </li>
+                <li><strong>Tema da ISO</strong>: Transporte</li>
                 <li><strong>Etapa atual</strong>: Não iniciado</li>
                 <!-- <li><strong>Project date</strong>: 01 March, 2020</li> -->
-                <li><strong>Repositório</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Repositório</strong>: 
+                  <a href="https://github.com/goat-community/goat" target="_blank">
+                    <img src ="https://img.shields.io/badge/Github-2b475e?style=for-the-badge&logo=github&logoColor=green" id="noQueConsiste">
+                   </a>
+                </li>
               </ul>
             
             <div class="portfolio-description">
               <h2>No que consiste</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              <hr>
+              <p id="iso37122">
+                Mapas de ruas interativos em tempo real fornecem informações atualizadas para pessoas que se 
+                deslocam pela cidade ou planejam se deslocar pela cidade. Isto permite que as pessoas planejem com mais 
+                eficiência seus tempos de deslocamento e rotas, bem como identifiquem pontos de acesso que acomodam 
+                pessoas com necessidades especiais.
               </p>
 
               <h2>Alinhamento com a ISO 37122</h2>
+              <hr>
+              <p id="comoContr">
+                A área da cidade mapeada por sistemas interativos de mapeamento de vias públicas em tempo real, 
+                como porcentagem da área total da cidade será calculada como a área total da cidade mapeada por 
+                sistemas interativos de mapeamento de vias públicas em tempo real (numerador) divididos pela área 
+                total da cidade (denominador). O resultado deve ser então multiplicado por 100 e expresso como área 
+                da cidade por sistemas interativos de mapeamento de vias públicas em tempo real como porcentagem 
+                da área total da cidade.
+              </p>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Sistemas interativos de mapeamento de vias públicas devem se referir a mapas de ruas gerados por 
+                um sistema de informações geográficas (SIG) e que contenham marcadores de local que respondam 
+                digital e imediatamente a um mouse, cursor da web ou touchpad. Os rótulos correspondem a locais 
+                comerciais ou edifícios acessíveis a pessoas com necessidades especiais.
+              </p>
+              <p>
+                Tempo real deve se referir à atualização instantânea de informações no mapa de ruas interativo para 
+                refletir as alterações atuais em uma área, como a construção de estradas ou a realocação de negócios. 
+                Convém que os mapas de ruas cubram a rede de pedestres e calçadas e a rede de transporte público da cidade.
               </p>
 
-              <h2>Como contribuir</h2>
+              <h2>Projeto Open Source</h2>
+              <hr>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                O projeto Geo Open Accessibility Tool (GOAT) pretende ser uma ferramenta web de código aberto, interativa, 
+                flexível e útil para planejamento de acessibilidade. Atualmente a ferramenta é mantida pela Startup 
+                <strong>Plan4Better</strong> e pela <strong>Universidade Técnica de Munique (TUM)</strong>. 
               </p>
+              <p>
+                O GOAT (Geo Open Accessibility Tool), foi desenvolvido como um instrumento interativo de código aberto 
+                transferível, que possui uma interface web fácil de ser usada. Os principais grupos-alvo são os profissionais, 
+                que possuem conhecimento na área de transporte e planejamento urbano. O GOAT foca-se particularmente em 
+                profissionais que não possuem competências para realizar análises de acessibilidade utilizando outro software 
+                SIG ou preferem uma solução menos demorada. Consequentemente, o GOAT pode ser considerado como um meio-termo 
+                entre aplicativos WebGIS simples para todos os usuários e um software de desktop GIS completo. Além disso, o 
+                foco é fornecer uma solução centrada no usuário com medidas de acessibilidade robustas que possam ser 
+                implementadas em diversas áreas de estudo, em vez da implementação das medidas de acessibilidade mais 
+                novas e sofisticadas.
+              </p>
+
+              <p>
+                O artigo sobre o GOAT está disponível no <a href="https://doi.org/10.1016/j.jtrangeo.2021.103080" 
+                target="_blank"><strong>Repositório ScienceDirect</strong></a>. <br>
+                E a API está disponível no GitHub: <a href="https://github.com/goat-community/goat" target="_blank">
+                  <img src ="https://img.shields.io/badge/GOAT-2b475e?style=for-the-badge&logo=github&logoColor=green">
+                 </a>
+              </p>
+              <hr>
+              <script src="https://gist.github.com/MUSQUITU/87fd6419735e81fddee281f890e1a2a5.js"></script>
             </div>
           </div>
         </div>
