@@ -51,6 +51,15 @@ h6 {
 # Catalogo
 --------------------------------------------------------------*/
 
+.ru {
+  padding: 20px;
+  border: solid 1px #7ed957;
+  border-radius: 8px;
+ }
+
+ .img-ru {
+  text-align: center;
+ }
 
 
 
